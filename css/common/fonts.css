@@ -40,3 +40,11 @@
     src: url("../../fonts/RobotoCondensed-Bold.ttf") format("truetype");
     font-display: swap;
 }
+/*Barlow Condensed Medium Cyrillic*/
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-weight: 500;
+    src: url("../../fonts/BarlowCondensed-Medium.otf") format("opentype");
+    font-display: swap;
+}
+

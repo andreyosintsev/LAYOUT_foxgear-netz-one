@@ -24,15 +24,18 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
     .wrapper {
-        max-width: 768px;
+        max-width: 970px;
 
-        padding: 0 14px;
+        padding: 0 30px;
     }
+}
 
-    .wrapper-1600 {
-        padding: 0 14px 0;
-        margin-bottom: 40px;
+@media screen and (max-width: 700px) {
+    .wrapper {
+        max-width: 970px;
+
+        padding: 0 20px;
     }
 }
