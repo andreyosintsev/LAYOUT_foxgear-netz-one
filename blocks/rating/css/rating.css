@@ -19,11 +19,20 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    
-    background-image: url("../images/star.svg");
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: 14px;
+
+    background-color: #000000;
+
+    -webkit-mask: url("../images/star.svg") no-repeat center / contain;
+    mask: url("../images/star.svg") no-repeat center / contain;
+
+}
+
+.rating__star:last-child {
+   margin-right: 0;
 }
 
 .rating__star_blank {
