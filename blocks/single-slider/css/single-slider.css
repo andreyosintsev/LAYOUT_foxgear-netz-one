@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 1000px) {
     .single-slider__cards {
-        width: clamp(898px, calc(114vw + 100px), 1240px);
+        width: clamp(1846px, calc(228vw + 250px), 2530px);
     }
 
     .single-slider_4frames .single-slider__cards {
